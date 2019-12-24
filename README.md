@@ -46,9 +46,7 @@
 
 
 ### WIFI打印
-
-
-
+![image](https://github.com/liukang96/wifi_weather/blob/liukang-branch/picture/URL.JPG)
 
 
 
