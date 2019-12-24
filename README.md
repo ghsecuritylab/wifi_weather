@@ -47,7 +47,6 @@
 
 ### WIFI打印
 
-​                                            	![](C:\Users\rtt_liukang\Desktop\URL.JPG)
 
 
 
