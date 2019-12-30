@@ -117,4 +117,3 @@
 
 **通过打印我们可以看到,内存被完美释放掉了**
 
-![](C:\Users\rtt_liukang\Desktop\1234.JPG)
