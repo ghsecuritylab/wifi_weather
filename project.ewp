@@ -700,11 +700,11 @@
                 </option>
                 <option>
                     <name>OCOutputOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>../../../rtthread.hex</state>
+                    <state>project.hex</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -2229,9 +2229,6 @@
         <file>
             <name>$PROJ_DIR$\applications\main.c</name>
         </file>
-        <file>
-            <name>$PROJ_DIR$\applications\weather.c</name>
-        </file>
     </group>
     <group>
         <name>AT</name>
@@ -2774,6 +2771,21 @@
         <name>User</name>
         <group>
             <name>task</name>
+            <file>
+                <name>$PROJ_DIR$\applications\esp_task.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\applications\key_task.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\applications\lcd_task.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\applications\led_task.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\applications\sensor_task.c</name>
+            </file>
         </group>
     </group>
 </project>

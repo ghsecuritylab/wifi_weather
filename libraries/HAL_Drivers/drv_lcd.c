@@ -963,7 +963,7 @@ void lcd_show_hz(rt_uint16_t x, rt_uint16_t y, rt_uint16_t width, rt_uint16_t he
     
     int len = 0;
     
-    SwitchToGbk((const uint8_t *)str, strlen((char const*)str), (uint8_t *)gbk, &len);
+    SwitchToGbk((const uint8_t *)str, strlen((char const*)str), (uint8_t *)gbk, &len); //转换为GBK编码格式
     
     while(*gbk != 0) 
     {
@@ -1008,9 +1008,9 @@ void lcd_show_hz(rt_uint16_t x, rt_uint16_t y, rt_uint16_t width, rt_uint16_t he
             lcd_show_font(x, y, (rt_uint8_t*)gbk, size); 
             gbk += 2;
             len -= 2;
+            x += size; 
            if(len == 0)
               break;
-            x += size; 
         }
     }
 }

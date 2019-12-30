@@ -1,0 +1,2 @@
+天气图标说明：https://docs.seniverse.com/api/start/code.html
+心知天气官网：https://www.seniverse.com/

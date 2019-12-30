@@ -33,7 +33,7 @@ extern const struct fal_flash_dev nor_flash0;
 {                                                                                                     \
     {FAL_PART_MAGIC_WROD,        "app", "onchip_flash",                         0,       512 * 1024, 0}, \
     {FAL_PART_MAGIC_WROD,  "easyflash",    "nor_flash",                         0,       512 * 1024, 0}, \
-    {FAL_PART_MAGIC_WROD,   "zwzk",        "nor_flash",                512 * 1024,      6156 * 1024, 0}, \
+    {FAL_PART_MAGIC_WROD,   "font",        "nor_flash",                512 * 1024,      6156 * 1024, 0}, \
     {FAL_PART_MAGIC_WROD, "filesystem",    "nor_flash", (512 + 6156) * 1024, 9716 * 1024, 0}, \
 }
 #endif /* FAL_PART_HAS_TABLE_CFG */

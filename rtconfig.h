@@ -186,7 +186,7 @@
 /* Wiced WiFi */
 
 #define PKG_USING_AT_DEVICE
-//#define PKG_AT_INIT_BY_THREAD
+#define PKG_AT_INIT_BY_THREAD
 #define AT_DEVICE_ESP8266
 #define AT_DEVICE_SOCKETS_NUM 5
 #define AT_DEVICE_NAME "uart2"

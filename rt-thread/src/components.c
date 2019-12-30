@@ -234,7 +234,7 @@ int rtthread_startup(void)
     /* signal system initialization */
     rt_system_signal_init();
 #endif
-
+    
     /* create init_thread */
     rt_application_init();
 
