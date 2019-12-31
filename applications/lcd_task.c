@@ -370,12 +370,7 @@ void lcd_thread_entry(void *parameter)
         }
         else if (change_picture == 4) //传感器数据
         {
-            lcd_disp_sensor();
-//              pic_coord.start_x = 0;
-//              pic_coord.start_y = 0;
-//              pic_coord.end_x = 0;
-//              pic_coord.end_y = 0;
-//              lcd_show_image(0,0,240,240,gImage_rtt);
+           lcd_disp_sensor();
         }
         else //一天天气
         {

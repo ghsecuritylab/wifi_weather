@@ -106,7 +106,10 @@ static void connect_bjtime_serve(void)
 	else
 	{
 		link_err_times++;
-		rt_thread_mdelay(5000);
+        
+        rt_kprintf("\nesp link err times = %d\n",link_err_times);
+        
+		rt_thread_mdelay(1000);
 	}
 	rt_free(rp);
 }
