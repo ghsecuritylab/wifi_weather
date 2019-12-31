@@ -114,3 +114,9 @@
   **有几个Printf就要有几个free!!!**
 
   **有几个Printf就要有几个free!!!**
+
+![weather1](https://github.com/liukang96/wifi_weather/blob/liukang-branch/picture/IMG_20191230_181528.jpg)
+
+![weather2](https://github.com/liukang96/wifi_weather/blob/liukang-branch/picture/IMG_20191230_181539.jpg)
+
+![weather3](https://github.com/liukang96/wifi_weather/blob/liukang-branch/picture/IMG_20191230_181553.jpg)
